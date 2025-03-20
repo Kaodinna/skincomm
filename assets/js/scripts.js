@@ -17,3 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.querySelectorAll('.toggle-answer').forEach(item => {
+  let targetId = item.getAttribute('data-bs-target'); // Get the target ID
+  let answerDiv = document.querySelector(targetId); // Select the corresponding answer div
+  let toggleBtn = item.querySelector('#show-ans-btn'); // Select the toggle button
+
+  // Listen for when the collapse is shown
+  answerDiv.addEventListener('shown.bs.collapse', () => {
+    toggleBtn.textContent = '-';
+  });
+
+  // Listen for when the collapse is hidden
+  answerDiv.addEventListener('hidden.bs.collapse', () => {
+    toggleBtn.textContent = '+';
+  });
+});
