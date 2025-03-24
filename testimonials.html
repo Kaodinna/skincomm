@@ -30,26 +30,26 @@
       <div class="col-8 hidden" id="menu">
         <nav>
           <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="">Shop</a>
-            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourProduct,#ourProduct1" href="#" onclick="document.getElementById('ourServices1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Our Products</a>
-              <ul class="nav-dropdown collapse sm-show-md-hide" id="ourProduct">
-                <li><a class="dropdown-item" href="product.html">All Products</a></li>
-                <li><a class="dropdown-item" href="product.html">SkinCeutical Series</a></li>
-                <li><a class="dropdown-item" href="product.html">NutraCeutical Series</a></li>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourShop,#ourShop1" href="#" onclick="document.getElementById('ourServices1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Shop</a>
+              <ul class="nav-dropdown collapse sm-show-md-hide" id="ourShop">
+                <li><a class="dropdown-item" href="shop3.html">All Products</a></li>
+                <li><a class="dropdown-item" href="shop.html">SkinCeutical Series</a></li>
+                <li><a class="dropdown-item" href="shope2.html">NutraCeutical Series</a></li>
               </ul>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Our Products</a>
+            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourServices,#ourServices1" href="#" onclick="document.getElementById('ourProduct1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Our Services</a>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourServices,#ourServices1" href="#" onclick="document.getElementById('ourShop1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Our Services</a>
               <ul class="nav-dropdown collapse sm-show-md-hide" id="ourServices">
                 <li><a class="dropdown-item" href="dermal-services.html">Dermal Services</a></li>
                 <li><a class="dropdown-item" href="longevity-wellness.html">Longevity & Wellness Services</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#aboutUs,#aboutUs1" href="#" onclick="document.getElementById('ourProduct1').classList.remove('show');document.getElementById('ourServices1').classList.remove('show')">About Us</a>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#aboutUs,#aboutUs1" href="#" onclick="document.getElementById('ourShop1').classList.remove('show');document.getElementById('ourServices1').classList.remove('show')">About Us</a>
               <ul class="nav-dropdown collapse sm-show-md-hide" id="aboutUs">
                 <li><a class="dropdown-item" href="who-we-are.html">Who Are We</a></li>
                 <li><a class="dropdown-item" href="join-us.html">Join Us</a></li>
@@ -76,7 +76,32 @@
       </div>
     </header>
 
-    <div class="collapse sm-hide-md-show" id="ourProduct1">
+    <div class="collapse sm-hide-md-show" id="ourShop1">
+      <div class="row align-items-center justify-content-end my-3">
+        <div class="col-sm-7 d-flex flex-wrap">
+          <div class="col-sm-4 text-center">
+            <a href="shop3.html">
+              <img class="img-fit nav-img" src="assets/images/ALL_IMG2_Blue 1.png" alt="">
+              <p class="mt-2">All Products</p>
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a href="shop.html">
+              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (5) 1.png" alt="">
+              <p class="mt-2">SkinCeutical Series</p>
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a href="shop2.html">
+              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (6) 1.png" alt="">
+              <p class="mt-2">NutraCeutical Series</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapse sm-hide-md-show" id="ourServices1">
       <div class="row align-items-center justify-content-end my-3">
         <div class="col-sm-6 d-flex flex-wrap">
           <div class="col-sm-6 text-center">
@@ -95,7 +120,7 @@
       </div>
     </div>
 
-    <div class="collapse sm-hide-md-show" id="ourServices1">
+    <div class="collapse sm-hide-md-show" id="aboutUs1">
       <div class="row align-items-center justify-content-end my-3">
         <div class="col-sm-7 d-flex flex-wrap">
           <div class="col-sm-4 text-center">
@@ -125,31 +150,6 @@
       </div>
     </div>
 
-    <div class="collapse sm-hide-md-show" id="aboutUs1">
-      <div class="row align-items-center justify-content-end my-3">
-        <div class="col-sm-7 d-flex flex-wrap">
-          <div class="col-sm-4 text-center">
-            <a href="#">
-              <img class="img-fit nav-img" src="assets/images/ALL_IMG2_Blue 1.png" alt="">
-              <p class="mt-2">All Products</p>
-            </a>
-          </div>
-          <div class="col-sm-4 text-center">
-            <a href="#">
-              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (5) 1.png" alt="">
-              <p class="mt-2">SkinCeutical Series</p>
-            </a>
-          </div>
-          <div class="col-sm-4 text-center">
-            <a href="#">
-              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (6) 1.png" alt="">
-              <p class="mt-2">NutraCeutical Series</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>
 
@@ -171,6 +171,9 @@
               <img src="assets/images/testimonials/others-3 2 1.png" class="bg-4-image" alt="">
               <p class="pt-2">The product textures are good! It makes my skin more balanced, it's not drying or oily. The UNICEL Complex really evens out and brightens my skin tone!</p>
               <h6 class="text-end"><strong>WENDY TAM</strong></h6>
+              <div class="text-end">
+                <img src="assets/images/others-13 15.png" alt="" style="width:100px">
+              </div>
             </div>
           </div>
 
@@ -179,6 +182,9 @@
               <img src="assets/images/testimonials/others-3 17 1.png" class="bg-4-image" alt="">
               <p class="pt-2">I had a huge purging of my psoriasis back in October 2023, which caused a huge red scar on my hand. After incorporating AgeREcode<sup>&reg;</sup> into my routine for just 30 days, not only is my psoriasis more controlled, but the scarring has also visibly reduced. Thank you AgeREcode<sup>&reg;</sup>!</p>
               <h6 class="text-end"><strong>NUR UMAIRA</strong></h6>
+              <div class="text-end">
+                <img src="assets/images/others-13 15.png" alt="" style="width:100px">
+              </div>
             </div>
           </div>
 
@@ -187,6 +193,9 @@
               <img src="assets/images/testimonials/WhatsApp Image 2024-05-06 at 12.56 3.png" class="bg-4-image" alt="">
               <p class="pt-2">I'm 67 years old now, and I've managing Type 2 Diabetes since 1999. Ever since I started AgeREcode<sup>&reg;</sup>, my blood sugar levels have significantly improved and is more well-controlled now.</p>
               <h6 class="text-end"><strong>MRS TAM</strong></h6>
+              <div class="text-end">
+                <img src="assets/images/others-13 15.png" alt="" style="width:100px">
+              </div>
             </div>
           </div>
 
@@ -195,6 +204,9 @@
               <img src="assets/images/testimonials/83 1.png" class="bg-4-image" alt="">
               <p class="pt-2">I'm 67 years old now, and I've managing Type 2 Diabetes since 1999. Ever since I started AgeREcode<sup>&reg;</sup>, my blood sugar levels have significantly improved and is more well-controlled now.</p>
               <h6 class="text-end"><strong>MRS TAM</strong></h6>
+              <div class="text-end">
+                <img src="assets/images/others-13 15.png" alt="" style="width:100px">
+              </div>
             </div>
           </div>
 
@@ -203,6 +215,9 @@
               <img src="assets/images/testimonials/5 9.png" class="bg-4-image" alt="">
               <p class="pt-2">I'm 67 years old now, and I've managing Type 2 Diabetes since 1999. Ever since I started AgeREcode<sup>&reg;</sup>, my blood sugar levels have significantly improved and is more well-controlled now.</p>
               <h6 class="text-end"><strong>MRS TAM</strong></h6>
+              <div class="text-end">
+                <img src="assets/images/others-13 15.png" alt="" style="width:100px">
+              </div>
             </div>
           </div>
 
@@ -211,6 +226,9 @@
               <img src="assets/images/testimonials/4 31.png" class="bg-4-image" alt="">
               <p class="pt-2">I'm 67 years old now, and I've managing Type 2 Diabetes since 1999. Ever since I started AgeREcode<sup>&reg;</sup>, my blood sugar levels have significantly improved and is more well-controlled now.</p>
               <h6 class="text-end"><strong>MRS TAM</strong></h6>
+              <div class="text-end">
+                <img src="assets/images/others-13 15.png" alt="" style="width:100px">
+              </div>
             </div>
           </div>
         </div>
@@ -246,7 +264,7 @@
         <div class="col-sm-4">
           <h5 class="fw-bold mb-4">See the Transformation, Feel the Difference.</h5>
           <p>Hear from real users who have experienced the power of the UNICEL System! From clearer skin to lasting hydration, discover how our science-backed formulations deliver visible, long-term results.</p>
-          <a href="#" class="btn mt-4">Video Testimonials</a>
+          <a href="https://youtube.com/playlist?list=PLVwnOpNehZPA_fgWmHfUcdGf0e6vZDuL7&si=dtdrKc3O6A_CS-MC" target="blank" class="btn mt-4">Video Testimonials</a>
         </div>
       </div>
     </div>
@@ -263,7 +281,7 @@
         <div class="col-sm-4">
           <h5 class="fw-bold mb-4">Real stories. Lasting impact.</h5>
           <p>See how AgeREcode® is helping individuals unlock better vitality, improved wellness, and peak performance. Watch real experiences and discover why this clinically proven supplement is changing lives!</p>
-          <a href="#" class="btn mt-4">Video Testimonials</a>
+          <a href="https://youtube.com/playlist?list=PLVwnOpNehZPBPEbBaZzO5KCrC1x1vPhwS&si=UdxT1j5CIxOdC7g4" target="blank" class="btn mt-4">Video Testimonials</a>
         </div>
       </div>
     </div>
@@ -324,7 +342,7 @@
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="assets/js/bootstrap5.3.3.bundle.min.js"></script>
-
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/include.js"></script>
+<script src="assets/js/scripts.js"></script>
   </body>
 </html>

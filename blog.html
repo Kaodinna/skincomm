@@ -30,26 +30,26 @@
       <div class="col-8 hidden" id="menu">
         <nav>
           <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="">Shop</a>
-            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourProduct,#ourProduct1" href="#" onclick="document.getElementById('ourServices1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Our Products</a>
-              <ul class="nav-dropdown collapse sm-show-md-hide" id="ourProduct">
-                <li><a class="dropdown-item" href="product.html">All Products</a></li>
-                <li><a class="dropdown-item" href="product.html">SkinCeutical Series</a></li>
-                <li><a class="dropdown-item" href="product.html">NutraCeutical Series</a></li>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourShop,#ourShop1" href="#" onclick="document.getElementById('ourServices1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Shop</a>
+              <ul class="nav-dropdown collapse sm-show-md-hide" id="ourShop">
+                <li><a class="dropdown-item" href="shop3.html">All Products</a></li>
+                <li><a class="dropdown-item" href="shop.html">SkinCeutical Series</a></li>
+                <li><a class="dropdown-item" href="shope2.html">NutraCeutical Series</a></li>
               </ul>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Our Products</a>
+            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourServices,#ourServices1" href="#" onclick="document.getElementById('ourProduct1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Our Services</a>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#ourServices,#ourServices1" href="#" onclick="document.getElementById('ourShop1').classList.remove('show');document.getElementById('aboutUs1').classList.remove('show')">Our Services</a>
               <ul class="nav-dropdown collapse sm-show-md-hide" id="ourServices">
                 <li><a class="dropdown-item" href="dermal-services.html">Dermal Services</a></li>
                 <li><a class="dropdown-item" href="longevity-wellness.html">Longevity & Wellness Services</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#aboutUs,#aboutUs1" href="#" onclick="document.getElementById('ourProduct1').classList.remove('show');document.getElementById('ourServices1').classList.remove('show')">About Us</a>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#aboutUs,#aboutUs1" href="#" onclick="document.getElementById('ourShop1').classList.remove('show');document.getElementById('ourServices1').classList.remove('show')">About Us</a>
               <ul class="nav-dropdown collapse sm-show-md-hide" id="aboutUs">
                 <li><a class="dropdown-item" href="who-we-are.html">Who Are We</a></li>
                 <li><a class="dropdown-item" href="join-us.html">Join Us</a></li>
@@ -76,7 +76,32 @@
       </div>
     </header>
 
-    <div class="collapse sm-hide-md-show" id="ourProduct1">
+    <div class="collapse sm-hide-md-show" id="ourShop1">
+      <div class="row align-items-center justify-content-end my-3">
+        <div class="col-sm-7 d-flex flex-wrap">
+          <div class="col-sm-4 text-center">
+            <a href="shop3.html">
+              <img class="img-fit nav-img" src="assets/images/ALL_IMG2_Blue 1.png" alt="">
+              <p class="mt-2">All Products</p>
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a href="shop.html">
+              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (5) 1.png" alt="">
+              <p class="mt-2">SkinCeutical Series</p>
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a href="shop2.html">
+              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (6) 1.png" alt="">
+              <p class="mt-2">NutraCeutical Series</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapse sm-hide-md-show" id="ourServices1">
       <div class="row align-items-center justify-content-end my-3">
         <div class="col-sm-6 d-flex flex-wrap">
           <div class="col-sm-6 text-center">
@@ -95,7 +120,7 @@
       </div>
     </div>
 
-    <div class="collapse sm-hide-md-show" id="ourServices1">
+    <div class="collapse sm-hide-md-show" id="aboutUs1">
       <div class="row align-items-center justify-content-end my-3">
         <div class="col-sm-7 d-flex flex-wrap">
           <div class="col-sm-4 text-center">
@@ -125,34 +150,8 @@
       </div>
     </div>
 
-    <div class="collapse sm-hide-md-show" id="aboutUs1">
-      <div class="row align-items-center justify-content-end my-3">
-        <div class="col-sm-7 d-flex flex-wrap">
-          <div class="col-sm-4 text-center">
-            <a href="#">
-              <img class="img-fit nav-img" src="assets/images/ALL_IMG2_Blue 1.png" alt="">
-              <p class="mt-2">All Products</p>
-            </a>
-          </div>
-          <div class="col-sm-4 text-center">
-            <a href="#">
-              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (5) 1.png" alt="">
-              <p class="mt-2">SkinCeutical Series</p>
-            </a>
-          </div>
-          <div class="col-sm-4 text-center">
-            <a href="#">
-              <img class="img-fit nav-img" src="assets/images/SC SUB Acc (Sq) (6) 1.png" alt="">
-              <p class="mt-2">NutraCeutical Series</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>
-
 
     <div class="py-5">
       <div class="w-80 d-flex align-items-center">
@@ -164,13 +163,10 @@
               <a class="nav-link border border-2 rounded-5 me-2 active" data-bs-toggle="tab" href="#blog">Blog</a>
             </li>
             <li class="nav-item mb-2">
-              <a class="nav-link border border-2 rounded-5 me-2" data-bs-toggle="tab" href="#features">Features</a>
+              <a class="nav-link border border-2 rounded-5 me-2" href="activities.html">Features</a>
             </li>
             <li class="nav-item mb-2">
-              <a class="nav-link border border-2 rounded-5 me-2" data-bs-toggle="tab" href="#events">Events</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a class="nav-link border border-2 rounded-5 me-2" data-bs-toggle="tab" href="#gallery">Gallery</a>
+              <a class="nav-link border border-2 rounded-5 me-2" href="activities.html">Events</a>
             </li>
           </ul>
         </div>
@@ -183,80 +179,128 @@
 
     <div class="tab-content w-80 py-3">
       <div id="blog" class="tab-pane fade show active">
-        <h2 class="fw-bold">Blog</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <img src="assets/images/sc landing page-2 2.png" alt="">
-            <p class="fw-bold mt-2 text-light-grey">BEAUTY</p>
-            <h3 class="newsreader-style">How Effective Is The Daily 10 Step Skincare Routine?</h3>
+        <h2 class="fw-bold">Blog Articles</h2>
+        <div class="py-2">
+          <div class="row">
+            <div class="col-sm-7">
+              <p>Your go-to source for expert insights on skincare, wellness, and biotechnology, written by Dr. Eileen Lee. Discover science-backed tips, industry trends, and in-depth articles to help you achieve your best health and beauty.</p>
+            </div>
+            <div class="col-sm-5 text-end pe-5">
+              <a href="#" class="btn">View More</a>
+            </div>
           </div>
 
-          <div class="col-sm-4">
-            <h6 class="mt-5 fw-bold">TOP POSTS</h6>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="rounded-5 py-2 px-4 mt-3" style="background-image:url('assets/images/bg-18.png'); height:250px;">
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <a href="blog-read.html" class="btn btn-sm mt-2 rounded-5" style="background-color:#000; color: #FFF">READ</a>
+                  </div>
+                  <div class="col-sm-6 text-end">
+                    <div class="me-1">
+                      <a href="blog-read.html">
+                        <img src="assets/icons/arrow upper-right.svg" alt="" style="width:40px">
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
-            <div class="row">
-              <div class="col-2 text-center">
-                <h2 class="fw-bold">1</h2>
-              </div>
-              <div class="col-10">
-                <h6 class="fw-bold">How Effective Is The Daily 10 Step Skincare Routine?</h6>
-                <p>Break down the essential steps for a daily skincare routine...</p>
+                <h6 class="fw-bold text-white mt-5">BEAUTY</h6>
+                <h5 class="newsreader-style text-white">My Top 3 Skin Concerns</h5>
               </div>
             </div>
+            <div class="col-sm-4">
+              <div class="rounded-5 py-2 px-4 mt-3" style="background-image:url('assets/images/bg-18.png'); height:250px;">
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <a href="blog-read.html" class="btn btn-sm mt-2 rounded-5" style="background-color:#000; color: #FFF">READ</a>
+                  </div>
+                  <div class="col-sm-6 text-end">
+                    <div class="me-1">
+                      <a href="blog-read.html">
+                        <img src="assets/icons/arrow upper-right.svg" alt="" style="width:40px">
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
-            <div class="row">
-              <div class="col-2 text-center">
-                <h2 class="fw-bold">2</h2>
-              </div>
-              <div class="col-10">
-                <h6 class="fw-bold">My Skin Is So Sensitive That I Am Feeling So Hopeless</h6>
-                <p>Struggling with sensitive skin? You’re not alone. Sensitive skin can...</p>
+                <h6 class="fw-bold text-white mt-5">BEAUTY</h6>
+                <h5 class="newsreader-style text-white">How Effective Is The Daily 10 Step Skincare Routine?</h5>
               </div>
             </div>
+            <div class="col-sm-4">
+              <div class="rounded-5 py-2 px-4 mt-3" style="background-image:url('assets/images/bg-18.png'); height:250px;">
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <a href="blog-read.html" class="btn btn-sm mt-2 rounded-5" style="background-color:#000; color: #FFF">READ</a>
+                  </div>
+                  <div class="col-sm-6 text-end">
+                    <div class="me-1">
+                      <a href="blog-read.html">
+                        <img src="assets/icons/arrow upper-right.svg" alt="" style="width:40px">
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
-            <div class="row">
-              <div class="col-2 text-center">
-                <h2 class="fw-bold">3</h2>
-              </div>
-              <div class="col-10">
-                <h6 class="fw-bold">My Top 3 Skin Concerns</h6>
-                <p>From persistent breakouts to uneven texture, dealing with skin concerns...</p>
+                <h6 class="fw-bold text-white mt-5">BEAUTY</h6>
+                <h5 class="newsreader-style text-white">Newly Launched AgeREcode<sup>&reg;</sup> Supplement</h5>
               </div>
             </div>
+          </div>
 
+          <div class="row mt-5 py-5 align-items-center">
+            <div class="col-sm-4 mt-3">
+              <img src="assets/images/image.png" alt="">
+            </div>
+            <div class="col-sm-4 mt-3">
+              <div class="text-center">
+                <h4 class="mb-5"> <strong>SKINCOMM<sup>&reg;</sup> Features</strong> </h4>
+                <p class="mb-5">SKINCOMM<sup>&reg;</sup> Features From celebrity endorsements to media spotlights, see how SKINCOMM<sup>&reg;</sup> is making waves in the beauty and wellness industry.</p>
+                <a href="#" class="btn">View More</a>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-3">
+              <img src="assets/images/image-1.png" alt="">
+            </div>
           </div>
-        </div>
 
-        <h6 class="mt-5 fw-bold">RECENT POSTS</h6>
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="assets/images/sc landing page-3 1.png" alt="">
-            <p class="fw-bold mt-2 text-light-grey">BEAUTY</p>
-            <a class="newsreader-style" href="#">
-              <h5>My Skin Is So Sensitive That I Am Feeling So Hopeless</h5>
-            </a>
+          <div class="row mt-5 py-5 align-items-center">
+            <div class="col-sm-5">
+              <h3 class="mb-5"> <strong>Our Events</strong> </h3>
+              <p class="mb-5">Join us for workshops and community gatherings! Be part of the SKINCOMM<sup>&reg;</sup> experience and stay tuned for upcoming events</p>
+              <a href="#" class="btn">View More</a>
+            </div>
+            <div class="col-sm-7">
+              <img class="rounded-4" src="assets/images/DSC_0574 1.png" alt="">
+              <div class="mt-2">
+                <em>"SKINCOMM<sup>&reg;</sup> 1st Anniversary" Event 2023</em>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <img src="assets/images/Screenshot 2024-01-18 at 5.48 1.png" alt="">
-            <p class="fw-bold mt-2 text-light-grey">HEALTH</p>
-            <a class="newsreader-style" href="#">
-              <h5>Product Spotlight: Newly Launched AgeREcode Supplement</h5>
-            </a>
+
+          <div class="row mt-3 align-items-center">
+            <div class="col-sm-4">
+              <img class="rounded-4" src="assets/images/event-img (2).png" alt="" style="object-fit:cover; width:100%; height:350px;">
+              <div class="mt-2">
+                <em>"SKINCOMM<sup>&reg;</sup> Launch Party" Event 2023</em>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img class="rounded-4" src="assets/images/event-img (3).png" alt="" style="object-fit:cover; width:100%; height:350px;">
+              <div class="mt-2">
+                <em>"Chinese New Year" Event 2025</em>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img class="rounded-4" src="assets/images/event-img (1).png" alt="" style="object-fit:cover; width:100%; height:350px;">
+              <div class="mt-2">
+                <em>"Associates Training" Workshop 2025</em>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <img src="assets/images/beautiful-asian-woman-posing-with-perfect-skin_23-2149369948 1.png" alt="">
-            <p class="fw-bold mt-2 text-light-grey">BEAUTY</p>
-            <a class="newsreader-style" href="#">
-              <h5>My Top 3 Skin Concerns</h5>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <img src="assets/images/close-up-face-young-woman-relaxing-gentle_158595-4583 1.png" alt="">
-            <p class="fw-bold mt-2 text-light-grey">TREATMENT</p>
-            <a class="newsreader-style" href="#">
-              <h5>From Acne to Anti-Aging: How to Find the Perfect Skin Treatment</h5>
-            </a>
-          </div>
+
         </div>
 
       </div>
@@ -330,10 +374,9 @@
     </div>
   </div>
 </footer>
-
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="assets/js/bootstrap5.3.3.bundle.min.js"></script>
-
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/include.js"></script>
+<script src="assets/js/scripts.js"></script>
   </body>
 </html>
