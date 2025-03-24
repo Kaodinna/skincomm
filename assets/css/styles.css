@@ -21,18 +21,19 @@ nav ul.nav-dropdown li {padding: 5px;}
 .w-90 {width: 90%; padding: 0 auto; margin: 0 auto;}
 .w-80 {width: 80%; padding: 0 auto; margin: 0 auto;}
 .w-70 {width: 70%; padding: 0 auto; margin: 0 auto;}
-input, textarea {width:100%; border:1px solid #000; padding: 20px;}
+input, textarea, select, .select-dropdown {background-color: #FFF; width:100%; border:1px solid #000; padding: 20px; margin-bottom: 10px; border-radius: 10px;}
 .cursor {cursor: pointer;}
 
 .hero-overlay, .bg-overlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.2);}
 .hero {position: relative; background: url('../images/hero-bg.png') center/cover no-repeat; height: 800px; display: flex; align-items: center; justify-content: center; color: white;}
 .hero-content, .bg-content {position: relative; z-index: 1;}
 .hero-content h1 {text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);}
-.btn, a.btn {border-radius: 4px; background-color: #000; color: #FFF!important; padding: 10px 35px;}
+.btn, a.btn {border-radius: 4px; background-color: #000; color: #FFF!important; border: 1px solid #000; padding: 10px 35px;}
+.btn.reverse, a.btn.reverse {background-color: #FFF; color: #000!important; border: 1px solid #000}
 .btn:hover, a.btn:hover {background-color: #555!important;}
 
 .bg-overlay {background: rgba(0, 0, 0, 0.1);}
-.bg-1, .bg-2, .bg-3, .bg-6, .bg-7, .bg-8 {background: url('../images/bg-1.png') center/cover no-repeat; height: 400px;}
+.bg-1, .bg-2, .bg-3, .bg-6, .bg-7, .bg-8, .bg-18 {background: url('../images/bg-1.png') center/cover no-repeat; height: 400px;}
 .bg-2 {background-image: url('../images/bg-2.png');}
 .bg-3 {position: relative; background-image: url('../images/bg-3.png'); height: 500px;}
 .bg-4 {background-color: #F7F7F7; position: relative; flex-direction: column; height: 100%; padding: 50px;}
@@ -52,9 +53,13 @@ input, textarea {width:100%; border:1px solid #000; padding: 20px;}
 .bg-14 {background: url('../images/bg-14.png') center/cover no-repeat; height: 600px; display: flex; align-items: center; justify-content: center;}
 .bg-14 h1 { font-size: 5rem; font-weight: 300;}
 .bg-14 h1:nth-of-type(2) {font-size: 7rem; margin-left: 10rem;}
-.bg-15 {background-image: url('../images/bg-15.png'); height: 500px; color: #FFF}
+.bg-15 {background-image: url('../images/DSC_0574 1.png'); height: 500px; color: #FFF}
 .bg-16 {background: url('../images/bg-16.png') center/cover no-repeat; height: 800px; overflow: hidden; display: block;}
 .bg-16-img {width:auto; max-width: 500px;}
+.bg-17 {background-image: linear-gradient(#BFD2E3, #E5EAF1, #80A5C8); border-radius: 20px;}
+.bg-17-2 {background: url('../images/bg-17.png') center/cover no-repeat; min-height: 400px; overflow: hidden; display: block; border-radius: 20px;}
+.bg-18 {background-image: url('../images/bg-18.png'); height: 500px;}
+.bg-ellipse {background-image: url('../images/bg-ellipse.png'); background-position: center; background-size: auto 100%; background-repeat: no-repeat;}
 
 .page-active {font-weight: bold;}
 
@@ -275,6 +280,7 @@ footer .agree-to-mail {color: #777777; font-size: 14px; line-height: 1.4rem;}
 }
 
 @media only screen and (max-width: 992px) {
+  #logo {width:150px; max-width: 150px;}
   .hero, .bg-9, .bg-11, .bg-12, .bg-13, .bg-15{height: 500px;}
   .bg-16 {height: auto;}
   .hero-content h1 {font-size: 35px!important;}
@@ -282,6 +288,13 @@ footer .agree-to-mail {color: #777777; font-size: 14px; line-height: 1.4rem;}
   .bg-5, footer {padding-left: 20px; padding-right: 20px;}
   .bg-14 h1 { font-size: 3rem; font-weight: 300;}
   .bg-14 h1:nth-of-type(2) {font-size: 4rem; margin-left: 20px;}
-  #logo {width:150px; max-width: 150px;}
   .scroll-x {overflow-x: auto}
+}
+
+@media only screen and (max-width: 767px) {
+.bg-ellipse {background-image: none;}
+}
+
+@media only screen and (max-width: 575px) {
+  .bg-18 {height: 300px;}
 }
