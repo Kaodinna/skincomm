@@ -90,6 +90,10 @@ input, textarea, select, .select-dropdown {background-color: #FFF; width:100%; b
 .img-fit.nav-img {height: 150px; max-width: 230px; border-radius: 10px;}
 .img-fit.founder {height: auto!important;}
 
+.media-features {height: 500px;}
+.media-features .mid-col {height: 254px;}
+.media-features img {height: 100%;}
+
 .team-box {padding: 15px; text-align: justify;}
 .team-box img {border-radius: 20px;}
 .highlight-box {background: teal; color: white; padding: 25px; text-align: justify; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; height: 100%; border-radius: 10px;}
@@ -289,10 +293,16 @@ footer .agree-to-mail {color: #777777; font-size: 14px; line-height: 1.4rem;}
   .bg-14 h1 { font-size: 3rem; font-weight: 300;}
   .bg-14 h1:nth-of-type(2) {font-size: 4rem; margin-left: 20px;}
   .scroll-x {overflow-x: auto}
+  .media-features {height: 320px;}
+  .media-features .mid-col {height: 164px;}
+  .media-features img {height: 100%;}
 }
 
 @media only screen and (max-width: 767px) {
-.bg-ellipse {background-image: none;}
+  .bg-ellipse {background-image: none;}
+  .media-features {height: auto;}
+  .media-features .mid-col {height: auto;}
+  .media-features img {height: auto;}
 }
 
 @media only screen and (max-width: 575px) {
